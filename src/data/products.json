@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "title": "L'Interdit",
+    "description": "Perfume femenino floral con notas de azahar, jazmín y pachuli.",
+    "code": "INT001",
+    "price": 58000,
+    "status": true,
+    "stock": 20,
+    "category": "F",
+    "thumbnails": [
+      "https://example.com/interdit.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Bleu de Chanel",
+    "description": "Perfume masculino amaderado con notas cítricas, incienso y sándalo.",
+    "code": "BDC002",
+    "price": 69000,
+    "status": true,
+    "stock": 15,
+    "category": "M",
+    "thumbnails": [
+      "https://example.com/bleu.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "La Vie Est Belle",
+    "description": "Aroma dulce y sofisticado con iris, jazmín y praliné.",
+    "code": "LVB003",
+    "price": 62000,
+    "status": true,
+    "stock": 18,
+    "category": "F",
+    "thumbnails": [
+      "https://example.com/lavie.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Dior Sauvage",
+    "description": "Perfume intenso con bergamota, pimienta y ambroxan.",
+    "code": "SAV004",
+    "price": 71000,
+    "status": true,
+    "stock": 25,
+    "category": "M",
+    "thumbnails": [
+      "https://example.com/sauvage.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Good Girl",
+    "description": "Perfume femenino oriental floral con haba tonka y cacao.",
+    "code": "GDG005",
+    "price": 57000,
+    "status": true,
+    "stock": 12,
+    "category": "F",
+    "thumbnails": [
+      "https://example.com/goodgirl.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Aventus Creed",
+    "description": "Perfume de lujo con piña, bergamota y almizcle.",
+    "code": "AVT006",
+    "price": 150000,
+    "status": true,
+    "stock": 5,
+    "category": "M",
+    "thumbnails": [
+      "https://example.com/aventus.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "My Way",
+    "description": "Perfume fresco y floral con vainilla, almendra y flor de azahar.",
+    "code": "MYW007",
+    "price": 56000,
+    "status": true,
+    "stock": 14,
+    "category": "F",
+    "thumbnails": [
+      "https://example.com/myway.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Invictus",
+    "description": "Perfume con notas acuáticas, ámbar gris y laurel.",
+    "code": "INV008",
+    "price": 63000,
+    "status": true,
+    "stock": 20,
+    "category": "M",
+    "thumbnails": [
+      "https://example.com/invictus.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Idôle",
+    "description": "Perfume luminoso con rosa, jazmín y almizcle blanco.",
+    "code": "IDL009",
+    "price": 59000,
+    "status": true,
+    "stock": 16,
+    "category": "F",
+    "thumbnails": [
+      "https://example.com/idole.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Acqua di Gio",
+    "description": "Aroma marino clásico con lima, jazmín y cedro.",
+    "code": "ADG010",
+    "price": 60000,
+    "status": true,
+    "stock": 22,
+    "category": "M",
+    "thumbnails": [
+      "https://example.com/acquadigio.jpg"
+    ]
+  }
+]
