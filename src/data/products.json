@@ -9,7 +9,7 @@
     "stock": 20,
     "category": "F",
     "thumbnails": [
-      "https://example.com/interdit.jpg"
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR34WvfFvYIBXeernx9usMTaZpqdjMYzU2Q55Ng16jG_860UHt2fY1NGVrtgQsrIHYRzDYUzaQvfg9RaetNqg2l0I2O1h5FPIWAyAs2VA1VDshDNft5DNdh"
     ]
   },
   {
@@ -22,7 +22,7 @@
     "stock": 15,
     "category": "M",
     "thumbnails": [
-      "https://example.com/bleu.jpg"
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQeO6xMIkXQNo2n4ZELIlp05nYIR-dDNYfNTJ78Ssn9nRh22FHHvkCxXs_sgxz1u4j8DT7_7mFkmQPXBg_7J1VTvcXE18oja_MSOmnz2OcS21a8EcK2Z93Wa_wr"
     ]
   },
   {
@@ -35,7 +35,7 @@
     "stock": 18,
     "category": "F",
     "thumbnails": [
-      "https://example.com/lavie.jpg"
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS8i_JZtUztclT7uk0cSAPGFuqlukER3g5GdF5wtkNZYA9-RdObHQCv0mahLf_Ji7bdpuaQBAR8XqqqcevWOA3njL66hc0la4NFp4StmiLNsQw1tlQeCqjQmQ"
     ]
   },
   {
@@ -48,7 +48,7 @@
     "stock": 25,
     "category": "M",
     "thumbnails": [
-      "https://example.com/sauvage.jpg"
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQh10YOXmM2fkbhGirNp4q3UX2fBVLW19gy6hcw6qWfpWwDWgMSZFO2ituvdqDAymeSA5RaU0zglHwr_3BQ7y_JNxTdyasWlsh-0APmiW-4AKNfEj6bgllCI3c"
     ]
   },
   {
@@ -61,7 +61,7 @@
     "stock": 12,
     "category": "F",
     "thumbnails": [
-      "https://example.com/goodgirl.jpg"
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQpy2xkuHWo0gBsltNvpy7F0aj2TOIjd6JNNN3jO__d--aHbVCWTEm_HKvI8J5_fbM746fXiywnnO1XUobRNk-CdftiMDwyjksx6tfnT4PqDhO0AveHe2rsSI3P"
     ]
   },
   {
@@ -74,7 +74,7 @@
     "stock": 5,
     "category": "M",
     "thumbnails": [
-      "https://example.com/aventus.jpg"
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQnVkCniJwkv9TZ50M25alK-MoWnI9Pz_aQf_r0zjyr84-trVPaEaig5tk69pxu-Ue2J58sO9Ncb2Gs6h5iWkvlbRfibsQk-p44qBw2ZFrS_TkEJQtppADB"
     ]
   },
   {
@@ -87,7 +87,7 @@
     "stock": 14,
     "category": "F",
     "thumbnails": [
-      "https://example.com/myway.jpg"
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSXbVJRBG9z_niEn33NbduaTRfRITIgs1cY4fR0tAya6-By4Gk1eyQkhka9c1auDxrpydV1fcv3iOoikAFkzQZf9ByAF5wLuTWlfxg6I-tVZqNx_nNXiidLGA"
     ]
   },
   {
@@ -100,7 +100,7 @@
     "stock": 20,
     "category": "M",
     "thumbnails": [
-      "https://example.com/invictus.jpg"
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRZgf6frWHCgT4wrJf_e3JhCY_K4KhSgJqEz9EVa_-xVYVrkshQoa_ONvytQOgBBe6w4jOISSqqrBpvMxZ4E46lhLAXmUr_RHLw32GW9XDphZilN9LaWFPA_w"
     ]
   },
   {
@@ -113,7 +113,7 @@
     "stock": 16,
     "category": "F",
     "thumbnails": [
-      "https://example.com/idole.jpg"
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRgYLoUbx8VnmF2Cs9ggYTSesU4EjL_xVIp2Lq6MRMESmt-_N08B-Z5rIpfIelr_IVSC4wcCfV8VW5wTsDQjgSBcSBFlwASZdIgOlVNDv5mHzkThXUQEmfMCw"
     ]
   },
   {
@@ -126,7 +126,6 @@
     "stock": 22,
     "category": "M",
     "thumbnails": [
-      "https://example.com/acquadigio.jpg"
-    ]
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTsP9Nm99eC1PLIltBJOWDgQvC4PrE34e85F7RiZmr4UeNBjBqGR1jMpc9NuooIkqV4GumTPfeKIYqw131aZKccCwjZ9A-7KbJ4NTsm26MwyJYgPRaZOuk6c0aJ" ]
   }
 ]

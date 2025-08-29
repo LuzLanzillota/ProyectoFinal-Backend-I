@@ -1,0 +1,77 @@
+<h1>Lista de productos</h1>
+
+<ul>
+    {{#each products}}
+    <li>
+        <strong>{{this.title}}</strong>
+        <br>
+        <img src="{{this.thumbnails.[0]}}" alt="{{this.title}}">
+        <br>
+        <p>{{this.description}}</p>
+        <strong> ${{this.price}}</strong>
+    </li>
+    {{/each}}
+</ul>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+
+    h1 {
+        color: #000000;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        /* columnas flexibles */
+        gap: 20px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* reparte imagen, texto y precio */
+        align-items: center;
+        min-height: 500px;
+        /* altura mínima uniforme */
+        background: #fff;
+        border: 2px solid #000;
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    li strong {
+        margin-bottom: 10px;
+        font-size: 1.2em;
+    }
+
+    li em {
+        flex-grow: 1;
+        /* fuerza al texto a ocupar el mismo espacio en todos los cards */
+        display: flex;
+        align-items: center;
+        /* centra verticalmente */
+        text-align: center;
+    }
+
+    li img {
+        max-width: 120px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    li span.precio {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+</style>
