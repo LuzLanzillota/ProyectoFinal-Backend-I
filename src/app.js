@@ -39,23 +39,24 @@ app.get('/realtimeproducts', async (req, res) => {
 });
 
 // Websockets
-io.on('connection', (socket) => {
+io.on('connection', async (socket) => {
     console.log('Cliente conectado');
 
     // Enviar productos iniciales
-    socket.emit('productos', productManager.getProducts());
+    socket.emit('productos', await productManager.getProducts());
 
     // Escuchar nuevo producto
-    socket.on('nuevoProducto', (producto) => {
-        const nuevo = productManager.addProduct(producto);
-        io.emit('productos', productManager.getProducts()); // actualiza a todos
+    socket.on('nuevoProducto', async (producto) => {
+        await productManager.addProduct(producto);
+        io.emit('productos', await productManager.getProducts());
     });
 
     // Escuchar eliminación
-    socket.on('eliminarProducto', (id) => {
-        productManager.deleteProduct(Number(id));
-        io.emit('productos', productManager.getProducts());
+    socket.on('eliminarProducto', async (id) => {
+        await productManager.deleteProduct(Number(id));
+        io.emit('productos', await productManager.getProducts());
     });
 });
+
 
 httpServer.listen(PORT, () => console.log("Servidor escuchando en puerto " + PORT));

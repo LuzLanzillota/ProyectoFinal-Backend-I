@@ -58,7 +58,6 @@
     ul {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        /* columnas flexibles */
         gap: 20px;
         list-style-type: none;
         margin: 0;
@@ -69,10 +68,8 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        /* reparte imagen, texto y precio */
         align-items: center;
         min-height: 500px;
-        /* altura mínima uniforme */
         background: #fff;
         border: 2px solid #000;
         border-radius: 15px;
@@ -88,10 +85,8 @@
 
     li em {
         flex-grow: 1;
-        /* fuerza al texto a ocupar el mismo espacio en todos los cards */
         display: flex;
         align-items: center;
-        /* centra verticalmente */
         text-align: center;
     }
 
@@ -160,7 +155,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* centra horizontalmente */
         gap: 10px;
         margin: 20px auto;
     }
@@ -168,6 +162,5 @@
     #formEliminar input,
     #formEliminar button {
         width: 650px;
-        /* mismo ancho para que quede prolijo */
     }
 </style>
